@@ -1,17 +1,12 @@
-<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/app-route/app-location.html">
 <link rel="import" href="../bower_components/app-route/app-route.html">
-<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
-<link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="my-icons.html">
 <link rel="import" href="shared-styles.html">
 <link rel="import" href="header-comp.html">
 <link rel="import" href="my-view1.html">
 <link rel="import" href="footer-comp.html">
-
-
-
 
 <dom-module id="my-app">
   <template>
@@ -39,22 +34,12 @@
         tail="{{subroute}}">
     </app-route>
 
-    <iron-selector selected="[[page]]" attr-for-selected="name" role="navigation">
-      <!-- <a name="view1" href="/view1">View One</a> -->
-    </iron-selector>
     <div class="wrapper">
       <header-comp></header-comp>
     </div>
 
     <my-view1 name="view1"></my-view1>
-    <!-- <iron-pages
-        selected="[[page]]"
-        attr-for-selected="name"
-        fallback-selection="view404"
-        role="main">
 
-      <my-view404 name="view404"></my-view404>
-    </iron-pages> -->
     <footer-comp></footer-comp>
 
   </template>
