@@ -7,10 +7,17 @@
 • Write in My View 1
 
 
-To do list:
-Animation on hover - slide out or something
-links off to actual places
-Contact page 
+*Git-hub-pages-instructions*
+
+• Site is hosted using git-hub pages
+*
+git push origin `git subtree split --prefix build/default master`:gh-pages --force
+
+
+
+
+
+
 
 # Polymer App Toolbox - Starter Kit
 
