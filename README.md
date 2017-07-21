@@ -11,6 +11,11 @@
 
 • Site is hosted using git-hub pages
 *
+
+Do your work on whatever branch
+Merge your changes that you want to build into 'master'
+git add .
+git commit -m "Your commit message"
 git push origin `git subtree split --prefix build/default master`:gh-pages --force
 
 
