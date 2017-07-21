@@ -18,9 +18,14 @@ git add .
 git commit -m "Your commit message"
 git push origin `git subtree split --prefix build/default master`:gh-pages --force
 
-
-
-
+------New-----
+Commit to master.
+Polymer build
+commit to master
+Paste in this
+git push origin `git subtree split --prefix build/default master`:gh-pages --force
+Update URL in settings
+Done
 
 
 
