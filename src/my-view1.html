@@ -12,6 +12,8 @@
       }
 
 
+
+
 .introText {
     font-family: 'GTAmerica-Regular', serif;
     font-size: 2em;
@@ -44,6 +46,7 @@ a {
   color: #333333;
   line-height: 0;
   margin-top: 2.2em;
+  margin-bottom: 1.5em;
   letter-spacing: 0.04em;
 }
 
@@ -52,7 +55,8 @@ a {
   font-size: 1.1em;
   line-height: 1.5625em;
   color: #333333;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
+  margin-top: .2em;
   letter-spacing: 0.04em;
   /* text-decoration: underline; */
 }
@@ -78,14 +82,35 @@ a {
 
 
 /*Mobile breakpoint*/
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 650px) {
     .introText{
     font-size: 1.5em;
   }
 
   .introText2 {
     font-size: 1.5em;
+    text-align: center;
   }
+
+  .introText {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+.subheading {
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+
+.projectlink {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 
   .flex-text-wrapper {
     align-items: flex-start;
@@ -93,7 +118,8 @@ a {
     }
 
   .wrapper {
-    padding-left: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
   }
 
   }
@@ -113,24 +139,23 @@ a {
       <p class="introText2">I currently call
         <a href="http://www.mentallyfriendly.com"  target="_blank" class="highlightText shiftUp2">Mentally Friendly
         </a> my home,
-        <br/>
         occasionally I <a href="https://medium.com/@chris.e" target="_blank" class="highlightText shiftUp2">write words</a> and <a href="https://vsco.co/christophcozy/images/1" target="_blank" class="highlightText shiftUp2">take photos</a>
       </p>
       <p class="subheading">
           Writings
       </p>
-      <p class="projectlink highlightText shiftUp2">
-        Reducing interruptions with Flow Time </p><br>
-      <p class="projectlink highlightText shiftUp2">
-        Benefits of a war room </p><br>
-        <p class="projectlink highlightText shiftUp2">
-        Why I learnt to code </p>
+      <a href="https://medium.com/@chris.e/reducing-interruptions-with-flow-time-820fbbeaf1b8" target="_blank"class="projectlink highlightText shiftUp2">
+        Reducing interruptions with Flow Time</a><br>
+      <a href="https://medium.com/@chris.e/reducing-interruptions-with-flow-time-820fbbeaf1b8" target="_blank" class="projectlink highlightText shiftUp2">
+        Benefits of a war room </a><br>
+        <a href="https://medium.com/@chris.e/reducing-interruptions-with-flow-time-820fbbeaf1b8" target="_blank" class="projectlink highlightText shiftUp2">
+        Why I learnt to code</a>
 
         <p class="subheading">
             Personal projects
         </p>
-        <p class="projectlink highlightText shiftUp2">
-          Popcorn.now</br>
+        <a href="http://popcorn.mentallyfriendly.com/" target="_blank" class="projectlink highlightText shiftUp2">
+          Make some popcorn!</a></br>
 
       </p>
     </div>
