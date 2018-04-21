@@ -1,8 +1,8 @@
 # How to start - c
 • cd drag in location
 • atom .
-• type polymer serve
-• app will be on localhost 8080
+• type `npm run start`
+• app will be on  http://127.0.0.1:8081
 • kill server is Ctrl c
 • Write in My View 1
 
