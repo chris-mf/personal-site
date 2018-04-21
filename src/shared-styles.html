@@ -14,7 +14,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <!-- shared styles for all views -->
 <dom-module id="shared-styles">
   <template>
-
     <style>
 
 
@@ -28,6 +27,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         background: #0A9AFF;
     }
 
+body {
+  background-color: #F3F0ED;
+
+}
+
+.highlightText{
+  border-bottom: solid rgba(255,255,255,.25);
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #D5D5D5
+}
+
 
   .underline {
       position: relative;
@@ -39,7 +50,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       color: #000;
     }
 
-
+    .highlightText{
+      border-bottom: solid rgba(255,255,255,.25);
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #D5D5D5
+    }
 
 .underline:before {
 content: "";
@@ -62,8 +78,7 @@ content: "";
     transform: scaleX(1);
   }
 
-
-    .shiftUp {
+/* .shiftUp {
       display: inline-block;
       -webkit-transform: perspective(0px) translateZ(0);
       -webkit-transition-duration: 0.2s;
@@ -75,18 +90,18 @@ content: "";
       text-decoration: none;
 
     }
-    .shiftUp:hover {
+.shiftUp:hover {
         /*color: #69C1FF;*/
-        -webkit-transform: translateY(-4px);
+        /* -webkit-transform: translateY(-4px);
         transform: translateY(-4px);
         color: #0091F8;
-    }
+    } */
 
     .shiftUp2 {
       display: inline-block;
       -webkit-transform: perspective(0px) translateZ(0);
       -webkit-transition-duration: 0.2s;
-      transition-duration: 0.1s;
+      transition-duration: 0.2s;
       -webkit-transition-property: transform;
       transition-property: transform;
       -webkit-transition-timing-function: ease-out;
@@ -98,8 +113,8 @@ content: "";
         /*color: #69C1FF;*/
         -webkit-transform: translateY(-5px);
         transform: translateY(-5px);
-        color: #D5D5D5;
-        ttext-decoration: none;
+        color:#D5D5D5;
+        text-decoration: none;
     }
 
     .wrapper {
